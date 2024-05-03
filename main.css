@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+
+html
+{
+    font-family: 'Inter';
+    background-color: #141414;
+    color: #eaeaea;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.mines
+{
+    background-color: #458588;
+    border: 1px solid #629d9c;
+    border-top: 1px solid #a1bf9e;
+    border-radius: 8px 8px 4px 4px;
+    
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 7px;
+    text-align: center;
+    width: 150px;
+
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+
+.mines p
+{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.mines span
+{
+    font-family: 'Martian Mono';
+    font-size: 30px;
+    font-weight: 700;
+}
+
+button
+{
+    display: block;
+
+    color: #eaeaea;
+    font-family: 'Inter';
+    background-color: #1e1e1e;
+    border: 1px solid #252525;
+    border-top: 1px solid #333333;
+    border-radius: 6px;
+
+    text-align: center;
+
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    margin-top: 12px;
+
+    transition-duration: 100ms;
+}
+
+button:hover { background-color: #212121; }
+button:active { background-color: #1b1b1b; }
+
+#board
+{
+    margin-bottom: 12px;
+    background-color: #1e1e1e;
+    border: 1px solid #252525;
+    border-top: 1px solid #333333;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div
+{
+    box-sizing: border-box; 
+    background-color: #232323;
+    border: 1px solid #292929;
+    border-top: 1px solid #353535;
+    color: #eaeaea;
+    height: 45px;
+    width: 45px;
+    margin: 2px;
+
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clicked
+{
+    background-color: #1a1a1a !important;
+    border: 1px solid #252525 !important;
+    border-bottom: 1px solid #303030 !important;
+}
+
+.x1 { color: #83a598 !important; }
+.x2 { color: #b8bb26 !important; }
+.x3 { color: #fabd2f !important; }
+.x4 { color: #fb4934 !important; }
+.x5 { color: #fe8019 !important; }
+.x6 { color: #8ec07c !important; }
+.x7 { color: #c2b8ab !important; }
+.x8 { color: #988e82 !important; }
